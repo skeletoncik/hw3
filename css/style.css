@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  align-items: center;
+  height: 100vh;
+  background: url(../img/photo_2021-12-16_04-02-48.jpg) no-repeat center
+    center/cover;
+}
+body {
+  background-color: black;
+}
+.header-content-text {
+  position: absolute;
+  top: 300px;
+  padding-left: px;
+  text-align: center;
+}
+.header--text {
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 92px;
+  background: rgb(12, 31, 49);
+  color: white;
+}
+.header-text-h3 {
+  color: rgb(143, 16, 16);
+  font-size: 50px;
+  font-weight: bold;
+}
+.box {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.header--gmail {
+  width: 50px;
+  height: 50px;
+}
+.header-content-dostavka {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+/* section */
+.section--content {
+  margin-top: 50px;
+  background-color: rgb(12, 31, 49);
+  height: 880px;
+  padding: 30px;
+}
+.section-content-h1 {
+  font-family: Open Sans;
+  font-style: italic;
+  color: rgb(230, 0, 0);
+  font-weight: bold;
+}
+.section-content-blok {
+  border-radius: 30px;
+  border-radius: 30px;
+  border-top-left-radius: 30px;
+  margin-left: 90px;
+  display: inline-block;
+  box-shadow: 0px 5px 8px 5px rgba(34, 60, 80, 0.2);
+  text-align: center;
+  background-color: gray;
+}
+.section-content-text-p {
+  color: white;
+  font-weight: bold;
+  width: 170px;
+  text-align: center;
+}
+.img--vipe {
+  border-radius: 30px;
+  width: 195px;
+}
+.section-content-prices {
+  color: rgb(167, 0, 0);
+  font-weight: bold;
+}
+.section-content-text {
+  margin-top: 30px;
+}
+.button {
+  width: 96px;
+  height: 52px;
+}
+.btn-content {
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+}
+.ikonka--korzinka {
+  width: 10px;
+  height: 10px;
+}
+
